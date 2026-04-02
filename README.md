@@ -15,4 +15,3 @@ I will make a 3D survival game. But it may not be a horror game because I am alw
 
 [break down](https://docs.google.com/drawings/d/1DVmkJuQFL1z7H0Tt06RomRasbgyEpttTVnYgcJZo0co/edit?usp=sharing)
 
-## W2
