@@ -11,15 +11,8 @@ I chatted with the girl next to me, and she planned to make a 2D platformer game
 I randomly grabbed Eric to take about his tastes. He was interested in PVP games. Totally different from my tastes of games. But I also like playing with many strangers together. 
 
 ### Activity 2
-Solidify your game idea. At this stage, focus on:
-Which genre you want to use.
-Your core mechanics and gameplay loop: the repeatable actions the character will take that lead them from objective to objective.
-修水管游戏
-美露莘
+I will make a 3D survival game. But it may not be a horror game because I am always afraid of horror games. In my plan, the player will appear in an enclosed space filled with water. Water keep getting into the space. The player needs to find the positions where water pipe breaks. Once the player fixes the water pipe, it will stop leaking water and it will decrease the total amount of water in the space. I will use NavMesh to navigate the positions of broken water pipes. I will also use timeline to show cutscenes and VFX sequencing. For cutscenes, I plan to place the camera in different positions between when the player is fixing the pipe and when the player is finding the pipe. For VFX sequencing, when player has stayed inside water for too long, the color tone will be dark and the screen will seem to be distorted. The player will repeat movements as go under water -> find the problematic pipe -> find the tool to fix the pipe -> go out to water to breathe. 
 
-世界要发洪水了，
-水在不停往四处蔓延
-找漏水的点，修补
 [break down](https://docs.google.com/drawings/d/1DVmkJuQFL1z7H0Tt06RomRasbgyEpttTVnYgcJZo0co/edit?usp=sharing)
 
 ## W2
