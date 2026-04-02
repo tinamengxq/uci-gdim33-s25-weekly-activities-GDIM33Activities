@@ -11,7 +11,15 @@ I chatted with the girl next to me, and she planned to make a 2D platformer game
 I randomly grabbed Eric to take about his tastes. He was interested in PVP games. Totally different from my tastes of games. But I also like playing with many strangers together. 
 
 ### Activity 2
-Put your activity 2 image here. REMOVE THIS INSTRUCTIONAL TEXT.
+Solidify your game idea. At this stage, focus on:
+Which genre you want to use.
+Your core mechanics and gameplay loop: the repeatable actions the character will take that lead them from objective to objective.
+修水管游戏
+美露莘
 
+世界要发洪水了，
+水在不停往四处蔓延
+找漏水的点，修补
+[break down](https://docs.google.com/drawings/d/1DVmkJuQFL1z7H0Tt06RomRasbgyEpttTVnYgcJZo0co/edit?usp=sharing)
 
 ## W2
