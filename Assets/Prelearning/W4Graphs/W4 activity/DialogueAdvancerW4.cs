@@ -26,5 +26,11 @@ namespace W4Activity
         {
             EventBus.Trigger(VsEventNames.NewDialogueEvent, nextLine);
         }
+
+        public DialogueNodeW4 dialogueNodeW4;
+        void Start()
+        {
+            ChooseDialogue(dialogueNodeW4);
+        }
     }
 }

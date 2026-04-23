@@ -47,3 +47,7 @@ Xichan Zheng, Jingyi Bi, Yan Zhang, Alex Ding, Tina Meng(ME)
 - If click on right button of the mouse, the player will immediately fly up to nowhere
 - Sometimes the player can't use WASD to move around
 
+### Activity 2
+1. Yes. The programmer can use for loop to add more dialogue. They can create a list of dialogue sentences to store teh dialogue content. Then, they use the index for contents in the list to increase the sentence presenting. The body of the for loop shall be changing the specific TMP text content that shows the dialogue. 
+2. I think there is no limit except for there is fixed space for all the buttons referring to the node. Like in this week's activity, prof said that, "The way I set up the UI, the player can have up to 4 options at once before the screen runs out of space". We can only put 4 option buttons on the screen. 
+3. Regenerates nodes saves all the changes we do on the basic setting on the nodes. It is like refreshing the entire unity project to make sure it implements all the changes we made on the basic settings. 
