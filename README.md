@@ -24,3 +24,26 @@ I will make a 3D survival game. But it may not be a horror game because I am alw
 2. It can help me know if an event is triggered. For example, when the game controller is currently in explore state, debug log will print "OK!" In the explore state, the animals will be falling. It is hard to see the animals immediately after we exit the dialogue because we have to move our cursor quickly up, which is a hard work for the fingers. When I see "OK!", I will be happy to know that the animals are falling now without hurting my finger.
 3. Yes. I planned to hide the cursor in the middle of the screen when player is not using the mouse. And if player want to use the mouse to change the direction of the camera, they can call the cursor and find it located in tme middle of the screen. 
 4. Yes. I planned to show the entire game progress using the pamphlet UI using a line of quests. Different game states can update which process the player is currently at. Therefore, I can use game states to update my game progress in my game controller and tell how pamphlet UI to change its UI.
+
+## W4
+### Activity 1
+1. Playtest goal
+My current game build contains a little bit of UI and player movement:
+- UI
+    - Player click on button called "pamphlet" and an empty panel will appear on the screen
+    - In the panel, player click on button called "return" and the empty panel will disappear from the screen
+- Player
+    - player can use WASD to move, player can use ZC to move up and down
+    - player can use cursor to change the direction of the camera to change direction of the player
+    - right button of the mouse can increase speed of player
+
+2. Name of playtest team members
+Xichan Zheng, Jingyi Bi, Yan Zhang, Alex Ding, Tina Meng(ME)
+
+3. Playtest notes
+- Can't use the cursor to change the direction of the player
+- In certain directions, W make player go forward, S make player go backward
+- The UI is too simple, almost nothing in the scene, player don't know what to do
+- If click on right button of the mouse, the player will immediately fly up to nowhere
+- Sometimes the player can't use WASD to move around
+
