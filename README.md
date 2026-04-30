@@ -68,3 +68,5 @@ Detail steps:
 8. write codes for random wondering of the empty game object within the same y level.
 9. make NPC to follow the game object using NavMesh every frame
 
+### Activity 2
+1. Created and baked NavMesh. I downloaded AI navigation from package manager. I then added component NavMeshAgent to the NPC that I want to move. I also created a NavMesh surface and lifted it up to make the fish seem to navigate in the air (swimming in the water). I then wrote a new C# script for FishNPC and attached it to the NPC fish I want to move. In the code, I used navmeshagent.setdestination() to guide the fish to a new position. I also used random.range() to generate random positions in the space to make the fish navigate to. I wrote Vector3.Distance() to make sure the fish is now close to the destination I assigned and then I call the method to generate a new random position. 
