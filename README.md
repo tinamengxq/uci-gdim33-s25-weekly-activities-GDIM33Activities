@@ -51,3 +51,20 @@ Xichan Zheng, Jingyi Bi, Yan Zhang, Alex Ding, Tina Meng(ME)
 1. Yes. The programmer can use for loop to add more dialogue. They can create a list of dialogue sentences to store teh dialogue content. Then, they use the index for contents in the list to increase the sentence presenting. The body of the for loop shall be changing the specific TMP text content that shows the dialogue. 
 2. I think there is no limit except for there is fixed space for all the buttons referring to the node. Like in this week's activity, prof said that, "The way I set up the UI, the player can have up to 4 options at once before the screen runs out of space". We can only put 4 option buttons on the screen. 
 3. Regenerates nodes saves all the changes we do on the basic setting on the nodes. It is like refreshing the entire unity project to make sure it implements all the changes we made on the basic settings. 
+
+## W5
+### Activity 1 - NavMesh
+Basic steps:
+1. Randomly generates a 3D vector that located within the space of the room
+2. Make the NPC move towards another random position (move randomly) using the NavMesh
+Detail steps:
+1. Create and bake NavMesh, try to find out if it is possible to draw the NavMesh blue print on different y levels separately
+2. Create an empty game object with only Transform in the scene. Code the NPC to make its NevMeshAgent move towards the game object.
+3. Add another empyt game object. Code the NPC to make the transform position of the new game object take the place of the transform position of the old game object.
+4. Move the empty game objects to make sure the transform position range of the area that I want the NPC to locate.
+5. Randomly generate a position for the emtpy game object in the code, test if it is within the space
+6. Randomly generate one position for the empty game object in the code, make the NPC goes toward the game object using NavMesh
+7. Try to test if the NPC arrive at the position generated using OnTriggerEnter on the gameobject. 
+8. write codes for random wondering of the empty game object within the same y level.
+9. make NPC to follow the game object using NavMesh every frame
+
