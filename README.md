@@ -70,3 +70,27 @@ Detail steps:
 
 ### Activity 2
 1. Created and baked NavMesh. I downloaded AI navigation from package manager. I then added component NavMeshAgent to the NPC that I want to move. I also created a NavMesh surface and lifted it up to make the fish seem to navigate in the air (swimming in the water). I then wrote a new C# script for FishNPC and attached it to the NPC fish I want to move. In the code, I used navmeshagent.setdestination() to guide the fish to a new position. I also used random.range() to generate random positions in the space to make the fish navigate to. I wrote Vector3.Distance() to make sure the fish is now close to the destination I assigned and then I call the method to generate a new random position. 
+
+
+## W6
+### Activity 1
+1. Playtest goal
+- I added NavMesh agent and surface. 
+- I added 5 NPC fishes.
+- I make the fishes to swim around all by themselves
+- [itch link](https://tinamengxq.itch.io/33test-mile2)
+2. Result
+- add transparent walls on the top of the room
+- make the camera can move on the y axis
+- create more obvious feedback every time the fish is hurt
+- increase font
+- create more obvious feedback after player fixed the pipe
+
+### Activity 2
+1. While the values are all between 0.0 and 1.0, the result of multiplication between two values that are both between 0.0 and 1.0 will be small than either values. Therefore, the colors will be less saturated than the original colors. And as color values increase, they will be closer to white. If they become smaller, the color will be darker.
+
+2. More translucent. Because multiplication between Alpha values decreases the result. As Alpha values get closer to 0, the color will be more transparent.
+
+3. The UV coordinates of the texture's mesh?
+
+4. Soso?
