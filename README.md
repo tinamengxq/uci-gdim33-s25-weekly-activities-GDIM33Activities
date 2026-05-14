@@ -88,9 +88,16 @@ Detail steps:
 
 ### Activity 2
 1. While the values are all between 0.0 and 1.0, the result of multiplication between two values that are both between 0.0 and 1.0 will be small than either values. Therefore, the colors will be less saturated than the original colors. And as color values increase, they will be closer to white. If they become smaller, the color will be darker.
-
 2. More translucent. Because multiplication between Alpha values decreases the result. As Alpha values get closer to 0, the color will be more transparent.
-
 3. The UV coordinates of the texture's mesh?
-
 4. Soso?
+
+## W7
+1. Vertex color node gives the vertex vector stored in the mesh ([reference]{https://docs.unity3d.com/Packages/com.unity.shadergraph@14.0/manual/Vertex-Color-Node.html}). So I think the data comes from the mesh. 
+2. The vertex color in step (3) comes from a normal vector. The default value of a vector might be (0, 0, 0). In the 0-1.0 scale of RGB, 0 represents the edge of the color range. 
+3. I think because the vertex color only applies the specifc color used on the model, but the texture suggests more details differences in color details between different surfaces. I imagine that the vertex color might be used for views far away in a world that don't need to show any more details.
+4. I think the problem is that the color is black and white. There are many colors in the graph but the color only shows black and white. 
+5. We can use simple calculation like addition and multiplication to change some small values of our vertex color vectors. I think we can use such debug shader on simple vertex values when we want to figure out what is the exact color we want to present in the game.
+6. This is because the calculation of vectors in unity have directions relative to the direction of lights. This will lead to different lighting effects in different directions.
+7. Because there is a color combition between two sources of colors. 
+
