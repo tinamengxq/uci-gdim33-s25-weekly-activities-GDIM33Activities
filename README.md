@@ -101,3 +101,33 @@ Detail steps:
 6. This is because the calculation of vectors in unity have directions relative to the direction of lights. This will lead to different lighting effects in different directions.
 7. Because there is a color combition between two sources of colors. 
 
+
+## W8
+### Activity 1
+1. [playtest link](https://tinamengxq.itch.io/33test-mile3)
+2. changed
+    - changed math on combat and oxygen system
+    - changed position of pipes
+3. goal    
+    - find a more suitable value for initial oxygen, oxygen decrease rate, and oxygen increase rate
+    - find suitable position for pipes and suitable distance between pipes
+    - find out how bright should the environment be
+4. notes
+    - increase initial oxygen value
+    - highlight the pipe to fix after player find that pipe
+    - rotate the navmesh surface to make it not horizontal
+    - increase the size of the UI to show the oxygen level
+    - decrease the rate of oxygen losing
+    - when telling the initial background story, stop the decrease of the oxygen and stop everything
+    - give hint to guide to the problematic pipe
+    - Z/C is not convenient, it would be better to change it into Q/E
+    - restart button
+
+
+### Activity 2
+1. Final Blit? I think when I click enable, it is the pass that directly shown at the first glance. Also, it occurs that the bottom of the hierachy, which may imply that it was the pass that was created at last.
+2. 0.5: it feels like the alpha of the material is 0.5, I mean the overlay seems to be transparent but it still has textures shown on the screen; 1: the texture is shown completely and thoroughly; 0: the texture is not shown on the screen.
+3. Because the lerp node shows x% between the original values. I suppose that it shows how much percent the overlay of texture is shown on the screen.
+4. Because sin(time) range from -1 to 1, which means that it is sometimes negative and positive. And it will have time to go in negative range. While the lerp only accepts positive values between 0 - 1, it will not process negative input. So, we should use sine graph with all positive sine values. 
+
+    
