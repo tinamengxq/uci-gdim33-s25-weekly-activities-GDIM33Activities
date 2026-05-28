@@ -142,5 +142,5 @@ There are special fruits that will create a fruit wave after player cut them. Th
 There is a problem with raycasting after I created a new camera based on a LA's instruction. My combat system couldn't work. Thus, I reverted all the changes since my play test last week. These commits included all the changes made for player suggestions and my shader graph. Then I have to remake my shader graph. There are conflicts that I couldn't solve so I asked professor to help me. After solving the git problem, I created my shader graph quickly again. 
 [commit](https://github.com/tinamengxq/GDIM33-VerticalSlice/commit/bc71ef3a484cc413b706e20315962894ac5d152c)
 The following graph is the shader graph I remaked. 
-<img width="1512" height="888" alt="86a952fea2886675e6af8ee7394d7022" src="https://github.com/user-attachments/assets/3851460b-aa39-4711-a9bc-9a8bc38c2cb0" />
+<img width="550" height="317" alt="Screenshot 2026-05-27 at 19 35 06" src="https://github.com/user-attachments/assets/0177333d-a11b-4b57-ae80-059b8a9ba14a" />
 
