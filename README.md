@@ -130,4 +130,14 @@ Detail steps:
 3. Because the lerp node shows x% between the original values. I suppose that it shows how much percent the overlay of texture is shown on the screen.
 4. Because sin(time) range from -1 to 1, which means that it is sometimes negative and positive. And it will have time to go in negative range. While the lerp only accepts positive values between 0 - 1, it will not process negative input. So, we should use sine graph with all positive sine values. 
 
-    
+## W9
+### Activity 1
+Game: [fruit ninja](https://www.youtube.com/watch?v=COFeh96bfWI)
+1. explosion
+It is a full-screen effect when player cuts a bomb. After player cuts a bomb, it will explode and make the entire screen very bright to show the effect of explosion. The rendering effect was deactivated at first and was activated once the player input collide with the bomb collider. The full screen effect gradually turn the entire screen white starting from the position of the bomb on the screen. 
+2. outline
+There are special fruits that will create a fruit wave after player cut them. They have outline around the edge of the fruit. They appear randomly during a game level. Once they appear, there will be outline around the edge of the fruit of the same color. And inside the outline there will be strings beautiful strings shining, showing that this fruit is special. 
+
+### Activity 2
+There is a problem with raycasting after I created a new camera based on a LA's instruction. My combat system couldn't work. Thus, I reverted all the changes since my play test last week. These commits included all the changes made for player suggestions and my shader graph. Then I have to remake my shader graph. There are conflicts that I couldn't solve so I asked professor to help me. After solving the git problem, I created my shader graph quickly again. 
+[commit](https://github.com/tinamengxq/GDIM33-VerticalSlice/commit/bc71ef3a484cc413b706e20315962894ac5d152c)
