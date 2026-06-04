@@ -148,3 +148,21 @@ The following graph is the shader graph I remaked.
 
 <img width="550" height="317" alt="Screenshot 2026-05-27 at 19 35 06" src="https://github.com/user-attachments/assets/0177333d-a11b-4b57-ae80-059b8a9ba14a" />
 
+## W10
+### Activity 1
+1. playtesting goal
+[itch link](https://tinamengxq.itch.io/33final-test)
+
+goals:
+- figure out if the new rendering activation looks natural 
+- get some last minute suggestions
+- find out if a renderering effect on the water surface is necessary
+
+suggestion:
+- increase the speed of oxygen decrease
+- create a water surface to tell them that player is out of water
+- make the found pipe be lighted
+- use left-crtl and space to go up and down (questionable because mac is different)
+
+2. discussion
+For every pitch in the future, we shall first create a small idea on what theme of the game we will make in this pitch. And then, we shall open a google drawing document to put every keywords we can come up. After gathering all the vague ideas we come up, we shall open a google doc to process our vague ideas into some detailed game mechanics and all the systems and technics we may need for this game. Later on we shall create another google drawing document to draw a booble graph to think of every required mechanics and controllers and the links between them. Then we should use a macro chart to list every small bit required in the game. 
