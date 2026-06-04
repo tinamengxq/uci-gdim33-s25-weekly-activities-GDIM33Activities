@@ -166,3 +166,5 @@ suggestion:
 
 2. discussion
 For every pitch in the future, we shall first create a small idea on what theme of the game we will make in this pitch. And then, we shall open a google drawing document to put every keywords we can come up. After gathering all the vague ideas we come up, we shall open a google doc to process our vague ideas into some detailed game mechanics and all the systems and technics we may need for this game. Later on we shall create another google drawing document to draw a booble graph to think of every required mechanics and controllers and the links between them. Then we should use a macro chart to list every small bit required in the game. 
+
+3. I changed the speed of how oxygen decrease. I tried to solve the problem of the water camera distortion effect with 2 LAs but we failed. So I just tried to find the best value for the distortion amount. [commit link](https://github.com/tinamengxq/GDIM33-VerticalSlice/commit/33ef0e46708eb78003a5753d7b20c60e97fc7d91)
